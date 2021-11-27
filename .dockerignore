@@ -1,0 +1,14 @@
+# Ignore the Build directory
+build/
+
+# Ignore Git
+.git
+
+# Ignore Dockerfiles
+*Dockerfile*
+
+# Ignore Node Files
+node_modules
+
+# Ignore the setup script
+scripts/
