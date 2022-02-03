@@ -22,7 +22,9 @@
     "backpack-core": "^0.8.4",
     "dotenv": "^8.1.0",
     "knex": "^0.95.14",
-    "pg": "^8.7.1"
+    "knex-db-manager": "^0.7.0",
+    "pg": "^8.7.1",
+    "pg-escape": "^0.2.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",

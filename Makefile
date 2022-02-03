@@ -21,7 +21,6 @@ down:
 up:
 	@echo "Starting docker container"
 	@command docker run --name postgres_dev -d -p 5432:5432 -e POSTGRES_HOST_AUTH_METHOD=trust postgres>/dev/null
-	@while ! docker ps|grep postgres_dev >/dev/null;do echo -n .; done
 	@sleep 2
 	@echo "Running database migrations"
 	@command npm run migrate
